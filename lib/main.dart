@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 void main() => runApp(HealthDashboardApp());
 
 class HealthDashboardApp extends StatelessWidget {
+  const HealthDashboardApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,6 +15,8 @@ class HealthDashboardApp extends StatelessWidget {
 }
 
 class HealthDashboardScreen extends StatelessWidget {
+  const HealthDashboardScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
